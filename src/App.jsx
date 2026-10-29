@@ -6,7 +6,7 @@ function App() {
 
   return (
     <main>
-        <p className="holaMundo"> Hola mundo </p>
+        <h1 className="holamundo"> Hola mundo </h1>
     </main>
   )
 }
