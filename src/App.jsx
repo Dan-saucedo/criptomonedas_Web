@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import Formulario from './components/Formulario'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <main>
-        <h1 className="holamundo"> Hola mundo </h1>
-    </main>
+    <div className="contenedor">
+      <h1> Cotizador de Criptomonedas </h1>
+      <Formulario/>
+    </div>
   )
 }
 
